@@ -1,0 +1,127 @@
+body{
+  background-color: #004a87 ;
+  overflow-x: hidden; /* empêche le scroll horizontal */
+}
+
+.colorwhite{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  width: 100%;
+}
+.logo {
+    width: 150px;
+    height: 150;
+    }
+    .menu{
+      display: flex;
+      gap: 20px;
+      position: absolute;
+      left: 70%;       /* Décalé vers la droite */
+      top: 30px;       /* En haut de la page */
+}
+   .zone-couleur {
+    background-color: #eb7328; padding: 50px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    margin-top: -5px; /* fait monter légèrement le texte */
+}
+
+.form-section {
+  flex: 1;
+  padding: 20px;
+  width: 600px;
+  margin: 0px 0 0 30px; /* Marge en haut et à gauche */
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: -50px;
+}
+
+.form-section h2 {
+  color: #004a87;
+  margin-bottom: 10px;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+form input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.socials {
+  display: flex;
+  justify-content: center; /* centre horizontalement */
+  gap: 10px;                /* espace entre les boutons */
+  margin-top: 10px;
+}
+
+.socials button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.g{
+  background-color: #db4437;
+}
+.fb {
+  background-color: #3b5998; /* bleu Facebook */
+  color: white;
+}
+
+.t {
+  background-color: #1da1f2; /* bleu Twitter */
+  color: white;
+}
+
+.image-section {
+  flex: 1;
+  background-color: #005793;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-section img {
+  width: 70%;
+}
+.image-container img {
+  width: 400px;
+  max-width: 100%;
+  position: relative;
+  top: -75vmin; /* ajuste selon ton besoin */
+  margin-left: 63%; /* pousse vers la droite */
+}

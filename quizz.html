@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quizz.css">
+</head>
+<body>
+    <div class="container">
+        
+        <header>
+            <div class="logo">
+                <div class="icon-laptop">
+                    <img src="logo.png" alt="Laptop icon">
+                    
+                </div>
+            </div>
+            <nav class="liens-nav">
+                <a href="#">Accueil</a>
+                <a href="quizz.html">Quizz</a>
+                <a href="">Resultats</a> 
+            </nav>
+        </header>
+
+        
+        <div class="steps-container">
+            <div class="steps">
+                <div class="step active">
+                    <div class="step-number">1</div>
+                    <div class="step-title">Personnalité</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-title">Santé</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-title">Compétences,Expérience et formation</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-title">Approche de l'entreprenariat</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <div class="step-title">Approche Technique</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">6</div>
+                    <div class="step-title">Note</div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="progress-bar"></div>
+
+        
+        <div class="question-container">
+            <h2 class="question-title">Question 1</h2>
+            <p class="question-description">
+                Revenez sur l'année dernière, avez vous commencé et terminé un de vos projets? <br>
+                Un projet peut etre par exemple, construire, réparer ou fabriquer quelque chose, écrire un livre, aller en formation continue...
+            </p>
+        </div>
+
+        
+        <div class="answer-options">
+            <div class="answer-option" onclick="selectOption(0)">
+                <div class="radio-container">
+                    <span class="custom-radio" id="radio-0"></span>
+                </div>
+                <div>commencé et terminé un certain nombre de projets</div>
+            </div>
+            <div class="answer-option" onclick="selectOption(1)">
+                <div class="radio-container">
+                    <span class="custom-radio" id="radio-1"></span>
+                </div>
+                <div>commencé beaucoup de choses mais en ai terminé très peu</div>
+            </div>
+            <div class="answer-option" onclick="selectOption(2)">
+                <div class="radio-container">
+                    <span class="custom-radio selected" id="radio-2"></span>
+                </div>
+                <div>n'ai pas fait grand chose pour moi mais beaucoup pour les autres</div>
+            </div>
+            <div class="answer-option" onclick="selectOption(3)">
+                <div class="radio-container">
+                    <span class="custom-radio" id="radio-3"></span>
+                </div>
+                <div>été beaucoup trop occupé pour m'occuper de mes propres affaires</div>
+            </div>
+        </div>
+
+       
+        <div class="nav-buttons">
+            <button class="next-button">
+                Suivant
+                <span class="progress-indicator">1/26</span>
+            </button>
+        </div>
+    </d.iv>
+
+</body>
+</html>
